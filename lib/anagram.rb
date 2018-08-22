@@ -22,11 +22,12 @@ class Anagram
 
   def match(array)
     array.find_all do |term|
-      term.split("").sort ==
+      term.split("").sort == 
     end
 
+  end
 
-
+end
 
 #listen = Anagram.new("listen") #class method, creates an Anagram object , listen is equal to an instance of the Anagram class
 #takes an argument whenever you have an initialize method,
