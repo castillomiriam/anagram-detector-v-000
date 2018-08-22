@@ -1,5 +1,5 @@
 # Your code goes here!
-require 'pry'
+
 class Anagram
   attr_accessor :word
   #:word is an attribute of each Anagram instance
