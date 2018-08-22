@@ -26,8 +26,10 @@ class Anagram
     end
 
     #created a class method called match, passed in an argument of 'array' (is literally an array)
-    #iterated over the 'array' array, 
+    #iterated over the 'array' array,
     #used the enumerable .find_all, returns an array containing all elements which return true. 
+    #split a word into an array of letters using some_word.split(""). compared the two arrays using the ==. "
+    #the first is the array of terms, the second is the instance variable word
 
   end
 
