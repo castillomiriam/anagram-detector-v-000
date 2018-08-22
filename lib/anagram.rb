@@ -22,7 +22,7 @@ class Anagram
 
   def match(array)
     array.find_all do |term|
-      term.split("").sort == 
+      term.split("").sort == self.split("").sort
     end
 
   end
