@@ -26,8 +26,8 @@ class Anagram
     end
 
     #created a class method called match, passed in an argument of 'array' (is literally an array)
-    #iterated over the 'array' array, used the enumerable .find_all on |term|
-    #
+    #iterated over the 'array' array, 
+    #used the enumerable .find_all, returns an array containing all elements which return true. 
 
   end
 
