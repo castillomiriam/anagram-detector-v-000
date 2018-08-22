@@ -25,6 +25,8 @@ class Anagram
       term.split("").sort == @word.split("").sort
     end
 
+    #created a class method called match, passed in an argument of 'array' (is literally an array) 
+    #iterated over the 'array' array, used the enumerable .find_all on |term|
     
 
   end
