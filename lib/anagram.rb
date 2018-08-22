@@ -27,13 +27,12 @@ class Anagram
 
   end
 
-end
 
-listen = Anagram.new("listen") #class method, creates an Anagram object , listen is equal to an instance of the Anagram class
+#listen = Anagram.new("listen") #class method, creates an Anagram object , listen is equal to an instance of the Anagram class
 #takes an argument whenever you have an initialize method,
 #initialize sets the value of an attribute for the object that is being created, attributes are instance variables :word
 
 #listen is an object of the anagram class and it has an attribute called word whose value is listen.
 
 
-listen.match(%w(enlists google inlets banana))
+#listen.match(%w(enlists google inlets banana))
